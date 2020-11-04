@@ -1,0 +1,110 @@
+﻿* {
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #f2f3f2;
+}
+
+.header {
+    height: 50px;
+    background-color: #cf3638;
+}
+
+    .header .header-container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 50px;
+        color: white;
+    }
+
+        .header .header-container .right {
+            position: relative;
+            display: grid;
+            justify-items: right;
+        }
+
+            .header .header-container .right .logout {
+                font-size: 15px;
+                text-decoration: none;
+                color: white;
+                position: absolute;
+                top: 50%;
+                transform: translate(0,-50%);
+            }
+
+.content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 200px 600px;
+    grid-gap: 10px;
+    margin-top: 10px;
+    position:relative;
+}
+
+    .content .right-side {
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        position:relative;
+    }
+
+        .content .right-side .dp {
+            margin-top: 0;
+            width: 50px;
+        }
+
+        .content .right-side .userName {
+            margin-top: 0;
+            display: block;
+            font-size: 20px;
+        }
+
+    .content .left-side {
+        background-color: white;
+    
+        position: relative;
+        border-top: 3px solid #cf3638;
+    }
+
+        .content .left-side .addPost {
+            width: 97%;
+            margin-top: 10px;
+            border: none;
+            outline:none;
+            padding:5px;
+            resize:none;
+        }
+
+        .content .left-side .addPostImage {
+            width: 100%;
+            border-bottom: 1px solid #d9d9d9;
+            padding: 0 5px 15px 5px;
+            box-sizing: border-box;
+        }
+
+        .content .left-side .addPostBtn {
+            display: block;
+            margin-top: 7px;
+            margin-bottom: 5px;
+            background-color: #cf3638;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 2px 15px;
+            font-size: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .content .left-side .addPostBtn:hover {
+          cursor:pointer;
+        }
