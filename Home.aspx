@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="Social_Media_Web_Site.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile ="home.aspx.cs" Inherits="Social_Media_Web_Site.Home" %>
 
 <!DOCTYPE html>
 
